@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Favourite Music Is Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="s3.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>My Favourite Ones</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/t.jpg" alt="1">
+                    <span class="songName">Tere Hawale</span>
+                    <span class="songlistplay"><span class="timestamp">05:49 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/kesariya.jpeg" alt="2">
+                    <span class="songName">Kesariya</span>
+                    <span class="songlistplay"><span class="timestamp">04:28 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/heroine.jpeg" alt="3">
+                    <span class="songName">Heroine</span>
+                    <span class="songlistplay"><span class="timestamp">03:31 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/jo tere sang.jpeg" alt="4">
+                    <span class="songName">Jo tere sang</span>
+                    <span class="songlistplay"><span class="timestamp">05:06 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/maahi.jpeg" alt="5">
+                    <span class="songName">Maahi</span>
+                    <span class="songlistplay"><span class="timestamp">05:29 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/tum hi ho.jpeg" alt="6">
+                    <span class="songName">Tum hi ho</span>
+                    <span class="songlistplay"><span class="timestamp">04:22 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/heeeriye.jpeg" alt="7">
+                    <span class="songName">Heeriye</span>
+                    <span class="songlistplay"><span class="timestamp">03:14 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Meri Aashiqui.jpeg" alt="8">
+                    <span class="songName">Meri Aashiqui</span>
+                    <span class="songlistplay"><span class="timestamp">04:40 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Zaroori tha.jpeg" alt="9">
+                    <span class="songName">Zaroori tha</span>
+                    <span class="songlistplay"><span class="timestamp">05:42 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Dil to Bachha hai Ji.jpeg" alt="10">
+                    <span class="songName">Dil to Bachha hai Ji</span>
+                    <span class="songlistplay"><span class="timestamp">05:36 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/Malang Sajna.jpeg" alt="11">
+                    <span class="songName">Malang Sajna</span>
+                    <span class="songlistplay"><span class="timestamp">02:41 <i id="10" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+            </div>
+        </div>
+  <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontsawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle"id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="music.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Tere Hawale</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/03986ec3e0.js" crossorigin="anonymous"></script>
+</body>
+</html>
